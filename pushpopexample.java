@@ -1,6 +1,6 @@
 import java.util.*;
 public class Main{
-    Node head; //head is top
+    Node head;
     class Node{
         int data;
         Node next;
@@ -42,16 +42,8 @@ public class Main{
         stack.pop();
         stack.printStack(); 
         stack.pop();
-        stack.pop();
         stack.printStack(); 
-        
+        stack.pop();
+        stack.printStack();
     }
 }
-
-
-
-
-
-
-
-
